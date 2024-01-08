@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(93, 255, 117);
+        }
+        h2{
+            text-decoration: underline;
+            text-decoration-style:wavy ;
+        }
+        main{
+            border: 3px solid black;
+            padding: 10px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2>Student Details</h2>
+        <main>
+            <form action="post">
+                <div class="username">
+                    <label for="Username">Username :-</label>
+                    <input type="text" name="Username" placeholder="Enter your name">
+                </div>
+                <div class="fathersname">
+                    <label for="fathersname">Fathers name :-</label>
+                    <input type="text" name="fathersname" placeholder="Enter your fathers name">
+
+                </div> 
+                <div class="mothersname">
+                    <label for="mothersname">Mothers name :-</label>
+                    <input type="text" name="mothersname" placeholder="Enter your mothersname" >
+                </div>
+                <div class="phno">
+                    <label for="phno">Phone No :-</label>
+                    <input type="number" name="phno" placeholder="Enter the Phone number">
+                </div>
+                <div class="gender">Enter the gender :- 
+                    <label for="Male">Male</label>
+                    <input type="radio" name="gender">
+                    <label for="Female">Female</label>
+                    <input type="radio" name="gender">
+                    <label for="Others">Others</label>
+                    <input type="radio" name="gender">
+                </div>
+                <div class="dob"></div>
+                <label for="dob">Date Of Birth :-</label>
+                <input type="date" name="dob"|>
+                <div class="bloodgroup">
+                    <label for="bloodgroup">Blood Group :-</label>
+                    <select name="Class">
+                        <option value="Select">Select</option>
+                        <option value="A+">A+</option>
+                        <option value="B+">B+</option>
+                        <option value="A-">A-</option>
+                        <option value="B-">B-</option>
+                        <option value="AB+">AB+</option>
+                        <option value="AB-">AB-</option>
+                        <option value="O+">O+</option>
+                        
+
+                    </select>
+                </div>
+                <div class="Department">Enter the Department :-
+                    <label for="CSE">CSE</label>
+                    <input type="radio" name="Department">
+                    <label for="ECS">ECS</label>
+                    <input type="radio" name="Department">
+                    <label for="EEE">EEE</label>
+                    <input type="radio" name="Department"></div>
+                    Feedback
+                <div class="textarea"> 
+                    <label for="Commenst"></label>
+                    <textarea placeholder="Enter here youe valuable feedback" id="Commenst" name="Commenst" rows="25" cols="50"></textarea>
+                </div>
+            </form>
+        </main>
+        <footer>
+
+        </footer>
+    </div>
+</body>
+
+</html>
